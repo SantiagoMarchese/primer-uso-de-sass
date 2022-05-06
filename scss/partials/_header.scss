@@ -1,0 +1,18 @@
+$color: rgb(255, 85, 0);
+
+
+
+
+header{
+    background-color: $color; /*lo interpreta con el mismo color*/
+    nav{
+        text-align: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover{
+                color: blueviolet;
+                
+            }
+        }
+    }
+}

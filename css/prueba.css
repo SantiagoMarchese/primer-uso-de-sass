@@ -1,0 +1,16 @@
+header {
+  background-color: #ff5500;
+  /*lo interpreta con el mismo color*/
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav a:hover {
+  color: blueviolet;
+}
